@@ -1,0 +1,14 @@
+Inline elements share the space.
+where block element will take up the entire rest of the line.
+    this means that the next time will be booted to below the one above.
+    Div elements are division elements and they are block containers.
+    span elements are like div but inline containers.
+    horizontal line is hr 
+    br is a line break
+    sup is super script like c^2 it raises the text up.
+    sub is sub script is like H2O where it would lower the 2.
+Html Entites are special codes that will give special charaters. like the copy right symbol.
+
+Semantic Markup
+    means something relating to meaning
+    so it meaningful to the html
