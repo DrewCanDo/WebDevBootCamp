@@ -12,3 +12,18 @@ Html Entites are special codes that will give special charaters. like the copy r
 Semantic Markup
     means something relating to meaning
     so it meaningful to the html
+
+main element 
+    is like a div in what it does. but is the main content of the page.
+
+section element
+    is like a div but for a section of infomation
+
+nav element 
+    is like a div but is for navigation sections
+
+footer element 
+    like a div but for the foot of the page.
+
+the above div like elements help better orginaze a page than labeling them all as div.
+the above is also useful for a clawer to navigate and find items on a page.
