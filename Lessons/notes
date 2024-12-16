@@ -25,5 +25,14 @@ nav element
 footer element 
     like a div but for the foot of the page.
 
+aside element   
+    is for a side bar 
+
+figure element 
+    has  a figcaption and image
+
+all above are semantic elements. look at mdn documentation for more info.
+
 the above div like elements help better orginaze a page than labeling them all as div.
 the above is also useful for a clawer to navigate and find items on a page.
+
