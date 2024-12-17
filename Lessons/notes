@@ -43,8 +43,10 @@ Table elements
     <td>: Table Data Cell Element (single cell)
     <tr>: Tabke Row
     <th>: Header Cell
-    <thead>
-    <tbody>
-    <tfoot>
+    <thead> wrap around headers of a table
+    <tbody> wrap around content of the table
+    <tfoot> wrap around total of table (bottom of table)
+    rowspan: it tells the table data (td) how many rows to take up
+    colspan: it tells the table data (td) how many columns to take up
     <colgroup>
     <capiton>
