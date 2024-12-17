@@ -37,3 +37,14 @@ the above div like elements help better orginaze a page than labeling them all a
 the above is also useful for a clawer to navigate and find items on a page.
 
 emmet is a tool that helps write html
+
+Table elements
+    <table>
+    <td>: Table Data Cell Element (single cell)
+    <tr>: Tabke Row
+    <th>: Header Cell
+    <thead>
+    <tbody>
+    <tfoot>
+    <colgroup>
+    <capiton>
