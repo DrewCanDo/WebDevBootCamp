@@ -1,35 +1,35 @@
 Inline elements share the space.
 where block element will take up the entire rest of the line.
-    this means that the next time will be booted to below the one above.
-    Div elements are division elements and they are block containers.
-    span elements are like div but inline containers.
-    horizontal line is hr 
-    br is a line break
-    sup is super script like c^2 it raises the text up.
-    sub is sub script is like H2O where it would lower the 2.
+this means that the next time will be booted to below the one above.
+Div elements are division elements and they are block containers.
+span elements are like div but inline containers.
+horizontal line is hr
+br is a line break
+sup is super script like c^2 it raises the text up.
+sub is sub script is like H2O where it would lower the 2.
 Html Entites are special codes that will give special charaters. like the copy right symbol.
 
 Semantic Markup
-    means something relating to meaning
-    so it meaningful to the html
+means something relating to meaning
+so it meaningful to the html
 
-main element 
-    is like a div in what it does. but is the main content of the page.
+main element
+is like a div in what it does. but is the main content of the page.
 
 section element
-    is like a div but for a section of infomation
+is like a div but for a section of infomation
 
-nav element 
-    is like a div but is for navigation sections
+nav element
+is like a div but is for navigation sections
 
-footer element 
-    like a div but for the foot of the page.
+footer element
+like a div but for the foot of the page.
 
-aside element   
-    is for a side bar 
+aside element  
+ is for a side bar
 
-figure element 
-    has  a figcaption and image
+figure element
+has a figcaption and image
 
 all above are semantic elements. look at mdn documentation for more info.
 
@@ -39,14 +39,19 @@ the above is also useful for a clawer to navigate and find items on a page.
 emmet is a tool that helps write html
 
 Table elements
-    <table>
-    <td>: Table Data Cell Element (single cell)
-    <tr>: Tabke Row
-    <th>: Header Cell
-    <thead> wrap around headers of a table
-    <tbody> wrap around content of the table
-    <tfoot> wrap around total of table (bottom of table)
-    rowspan: it tells the table data (td) how many rows to take up
-    colspan: it tells the table data (td) how many columns to take up
-    <colgroup>
-    <capiton>
+<table>
+<td>: Table Data Cell Element (single cell)
+<tr>: Tabke Row
+<th>: Header Cell
+<thead> wrap around headers of a table
+<tbody> wrap around content of the table
+<tfoot> wrap around total of table (bottom of table)
+rowspan: it tells the table data (td) how many rows to take up
+colspan: it tells the table data (td) how many columns to take up
+<colgroup>
+<capiton>
+
+Form Element
+it s a section that should hold interactive controls
+the ACTION attribute specifies WHERE the form data should be sent
+the method attribute specifies which HTTP method should be used.
