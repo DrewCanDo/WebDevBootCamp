@@ -39,6 +39,7 @@ the above is also useful for a clawer to navigate and find items on a page.
 emmet is a tool that helps write html
 
 Table elements
+
 <table>
 <td>: Table Data Cell Element (single cell)
 <tr>: Tabke Row
@@ -52,6 +53,17 @@ colspan: it tells the table data (td) how many columns to take up
 <capiton>
 
 Form Element
-it s a section that should hold interactive controls
+it is a section that should hold interactive controls
 the ACTION attribute specifies WHERE the form data should be sent
 the method attribute specifies which HTTP method should be used.
+
+The form element represents a document section containing interactive
+controls for submitting information.
+
+Input Element
+The input element is used to create a variety of different form controls.
+
+we have 20+ possible types of inputs, ranging from date pickers to checkboxes.
+
+The type attribute is where the mage happens. Changing the type dramatically alters
+the input's behavior and appearance.
