@@ -7,9 +7,14 @@
   </head>
   <body>
     <h1>Forms Demo</h1>
+
+    <button>OUTSIDE FORM (will not submite form)</button>
+    <hr />
     <!--Forms section-->
     <!--The input element-->
     <form action="/tacos">
+      <!--setting type to button will not submite the form, but make it a normal button-->
+      <button type="button">PLEASE DO NOT SUBMIT THE FORM</button>
       <p>
         <label for="username">enter a username</label>
         <input id="username" type="text" placeholder="UserName" />
@@ -18,6 +23,7 @@
         <label for="password">enter a password</label>
         <input id="password" type="password" placeholder="password" />
       </p>
+      <button>IN THE MIDDLE!</button>
       <p>
         <label for="color">enter a color</label>
         <input id="color" type="color" />
@@ -26,6 +32,8 @@
         <label for="number">enter a number</label>
         <input id="number" type="number" placeholder="enter a number" />
       </p>
+      <!--this will go to the action of the form whitch is /tacos (atm)-->
+      <button>Submit</button>
     </form>
   </body>
 </html>
