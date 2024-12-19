@@ -71,3 +71,6 @@ the input's behavior and appearance.
 id note: there should be no matching ids ever
 
 the name element in an input is super important and should be in every input! video(51)
+
+if you do not have a button in the form and the user hits enter. it WILL Submit the form.
+you you can use a search bar with no button.
