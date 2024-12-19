@@ -17,20 +17,38 @@
       <button type="button">PLEASE DO NOT SUBMIT THE FORM</button>
       <p>
         <label for="username">enter a username</label>
-        <input id="username" type="text" placeholder="UserName" />
+        <!--name will be what is sent when button submits data
+        example: http://127.0.0.1:5500/tacos?username=Testing+name
+        -->
+        <input
+          id="username"
+          type="text"
+          placeholder="UserName"
+          name="username"
+        />
       </p>
       <p>
         <label for="password">enter a password</label>
-        <input id="password" type="password" placeholder="password" />
+        <input
+          id="password"
+          type="password"
+          placeholder="password"
+          name="password"
+        />
       </p>
       <button>IN THE MIDDLE!</button>
       <p>
         <label for="color">enter a color</label>
-        <input id="color" type="color" />
+        <input id="color" type="color" name="color" />
       </p>
       <p>
         <label for="number">enter a number</label>
-        <input id="number" type="number" placeholder="enter a number" />
+        <input
+          id="number"
+          type="number"
+          placeholder="enter a number"
+          name="number"
+        />
       </p>
       <!--this will go to the action of the form whitch is /tacos (atm)-->
       <button>Submit</button>

@@ -69,3 +69,5 @@ The type attribute is where the mage happens. Changing the type dramatically alt
 the input's behavior and appearance.
 
 id note: there should be no matching ids ever
+
+the name element in an input is super important and should be in every input! video(51)
