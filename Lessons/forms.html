@@ -84,5 +84,53 @@
       <input type="text" name="k" />
       <button>Search Amazon</button>
     </form>
+    <hr />
+    <h2>More Inputs!</h2>
+    <form action="/birds">
+      <input type="checkbox" name="agree_tos" id="agree" checked />
+      <label for="agree">I agree to everything</label>
+      <!--radio buttons-->
+      <p>
+        <label for="xs">XS</label>
+        <input type="radio" name="size" id="xs" value="extra_small" />
+        <label for="s">S</label>
+        <input type="radio" name="size" id="s" value="small" />
+        <label for="m">M</label>
+        <input type="radio" name="size" id="m" value="medium" />
+      </p>
+      <!-- drop down box (select)-->
+      <p>
+        <label for="meal">Please Select an Entree</label>
+        <select name="meal" id="meal">
+          <option value="fish">Fish</option>
+          <option value="veg">Vegetarian</option>
+          <option value="steak">Steak</option>
+        </select>
+      </p>
+      <!--range input-->
+      <p>
+        <label for="cheese">Amount of cheese</label>
+        <input
+          id="cheese"
+          type="range"
+          min="1"
+          max="10"
+          step="2"
+          name="cheese_level"
+        />
+      </p>
+      <!--Text area-->
+      <p>
+        <label for="requests">Any Special Requests?</label>
+        <br />
+        <textarea
+          name="search_query"
+          id="requests"
+          rows="10"
+          cols="40"
+        ></textarea>
+      </p>
+      <button type="submit">Submit</button>
+    </form>
   </body>
 </html>

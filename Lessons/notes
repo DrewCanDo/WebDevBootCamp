@@ -74,3 +74,12 @@ the name element in an input is super important and should be in every input! vi
 
 if you do not have a button in the form and the user hits enter. it WILL Submit the form.
 you you can use a search bar with no button.
+
+Radio button note:
+to group radio buttons together you set them all to the same name!!!! 
+the value of the radio button that is selected is what will be sent to the server
+
+input range:
+its the slider that can be set to a min an max. you can use the step attribute to move it by 2 or 5 each time.
+veerrrry neat
+you can set the value to be at a certain number starting off
