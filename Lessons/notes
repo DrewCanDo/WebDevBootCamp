@@ -67,3 +67,5 @@ we have 20+ possible types of inputs, ranging from date pickers to checkboxes.
 
 The type attribute is where the mage happens. Changing the type dramatically alters
 the input's behavior and appearance.
+
+id note: there should be no matching ids ever
