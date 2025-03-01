@@ -1,0 +1,43 @@
+body {
+  width: 100vh;
+  height: auto;
+  display: flex;
+  text-align: center;
+}
+
+#mainContainer {
+  align-content: space-evenly;
+  width: 500px;
+  height: 400px;
+  margin: auto;
+}
+
+button {
+  margin-top: 40px;
+  padding: 10px;
+  width: 150px;
+}
+
+#playAmount {
+  -webkit-appearance: menulist-button;
+  font-size: 15px;
+  width: 60px;
+}
+
+h3 {
+  margin-top: 40px;
+}
+
+#playerOne {
+  background-color: green;
+  color: white;
+}
+
+#playerTwo {
+  background-color: aqua;
+}
+
+#reset {
+  background-color: red;
+  color: white;
+}
